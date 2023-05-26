@@ -165,7 +165,8 @@ def raise_indentation_error():
 
 
 #############################
-# def raise_type_error():
+def raise_type_error():
+    x = "hello" + 1
 
 
 #############################
@@ -346,7 +347,7 @@ if __name__ == '__main__':
     # raise_zero_division_error()
     # raise_assertion_error()
     # raise_import_error()
-    # raise_key_error()
+    raise_key_error()
     # raise_syntax_error()
     # raise_indentation_error()
     # raise_stop_iteration()
